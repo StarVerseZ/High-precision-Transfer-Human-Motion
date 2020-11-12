@@ -1,0 +1,15 @@
+python3 train.py \
+--name single_mask \
+--gpu_ids 0 \
+--nThreads 0 \
+--dataroot ./datasets \
+--n_blocks_global 9 \
+--ngf 64 \
+--norm instance \
+--loadSize 256 \
+--save_latest_freq 1000 \
+--display_freq 10 \
+--print_freq 10 \
+--no_flip \
+--verbose \
+--tf_log
